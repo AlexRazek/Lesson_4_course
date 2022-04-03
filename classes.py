@@ -1,3 +1,4 @@
+from __future__ import annotations
 from dataclasses import dataclass
 from skills import Skill, PowerShot, FuryKick
 
@@ -35,7 +36,7 @@ BurglarClass = UnitClass(
 
 unit_classes = {
     WarriorClass.name: WarriorClass,
-    BurglarClass.name: BurglarClass,
+    BurglarClass.name: BurglarClass
 }
 
 # name: str
